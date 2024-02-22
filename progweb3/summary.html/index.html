@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan</title>
+    <style>
+        textarea{
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://www.ukdw.ac.id/wp-content/uploads/2017/10/fti-ukdw.png" width="50px" alt="">
+        <span>Fakultas Teknologi Informasi</span>
+    </header>
+
+    <main>
+
+        <h1>Pendapatan Buku</h1>
+
+        <form action="summary.html" method="post">
+
+            <div>
+                <label for="">No. Buku</label>
+                <input disabled value="900001">
+
+            </div>
+
+            <div>
+                <label for="">Judul Buku</label>
+                <input type="" name="" id="">
+
+            </div>
+
+            <div>
+                <label for="">Kategori Buku</label>
+                <input type="radio" name="kategoriID" id="KategoriID" value="1">Novel
+                <input type="radio" name="kategoriID" id="KategoriID" value="2">Majalah
+                <input type="radio" name="kategoriID" id="KategoriID" value="3">Komik
+                <input type="radio" name="genre" id="KategoriID" value="3">Ensiklopedia
+
+            </div>
+
+
+            <div>
+                <label for="">Genre Buku</label>
+                <input type="checkbox" name="genre" id="genreID" value="1">Fiksi
+                <input type="checkbox" name="genre" id="genreID" value="1">Horor
+                <input type="checkbox" name="genre" id="genreID" value="1">Misteri
+                <input type="checkbox" name="genre" id="genreID" value="1">Fantasi
+
+            </div>
+
+
+            <div>
+
+                <label for="">Penerbit</label>
+                <select name="penerbit" id="">
+                    <option value="0">--Pilih Penerbit--</option>
+                    <option value="1">Deepublish</option>
+                    <option value="2">Bukunesia</option>
+                    <option value="3">Grasindo</option>
+                    <option value="4">Bintang Media</option>
+                </select>
+
+            </div>
+
+            <div>
+
+                <label for="">File Gambar</label>
+                <input type="file" name="gambar" id="gambarID">
+
+            </div>
+
+            <div>   
+                <label for="">Sinopsis</label>
+                <textarea name="sinopsis" id="sinopsisID" cols="30" rows="5"></textarea>
+            </div>
+
+
+            <div>
+                <label for="">Tanggal Beli</label>
+                <input type="date" name="tgl" id="tglID">
+
+            </div>
+
+            <div>
+                <label for="">Jumlah Pembelian</label>
+                <input type="number" name="jml" id="jmlID">
+            </div>
+
+
+            <div>
+
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </div>
+        </form>
+        
+
+    </main>
+    
+    
+</body>
+</html>
