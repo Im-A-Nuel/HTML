@@ -1,0 +1,36 @@
+body{
+    background-color: yellow;
+}
+
+header h1{
+    color: blue;
+}
+
+.details-wrapper > table{
+    border: 10px dashed green;
+}
+
+#sinopsisId{
+    background-color: red;
+    border: 5px solid blue;
+    padding: 10px;
+    background-clip: content-box;
+}
+
+#parkHoon{
+    color: white;
+    font-style: bold;
+}
+
+ul{
+    color: purple;
+    margin: 20px;
+}
+
+ol{
+    color: red;
+}
+
+b{
+    color: white;
+}
