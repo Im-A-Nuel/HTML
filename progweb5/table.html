@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial</title>
+
+    <style>
+
+        table, tr, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            min-height: 80%;
+            min-width: 40px;
+            color: white;
+        }
+
+
+        th{
+            background-color: lightblue;
+            color: lightblue;
+        }
+        
+        td:first-child{
+            background-color: lightblue;
+            color: lightblue;
+        }
+
+        div{
+            border: cadetblue solid;
+            background-color: aquamarine;
+            padding-left: 45%;
+            margin: 40px;
+            border-style: dotted;
+            border-radius: 5px 50px;
+        }
+
+        p > span{
+            background-color: blue;
+        }
+
+        p#p2{
+            color: blueviolet;
+        }
+
+        p{
+            color: green;
+            font-weight: bold;
+        }
+        p.kelasPurple{
+            color: purple;
+        }
+        
+        .kelasBlue{
+            color: blue;
+        }
+        
+        #idRed{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+
+        <div>
+            <p>nanaananna <span>asu</span></p>
+            
+            <p id="p2">kakakakakaak <strong>ini strong</strong></p>
+
+        </div>
+
+        <thead>
+            <tr>
+            <th>x1</th>
+            <th>x2</th>
+            <th>x3</th>
+            <th>x4</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>x</td>
+                <td>y</td>
+                <td>z</td>
+                <td>w</td>
+            </tr>
+            <tr>
+                <td>x</td>
+                <td>y</td>
+                <td>z</td>
+                <td>w</td>
+            </tr>
+            <tr>
+                <td>x</td>
+                <td>y</td>
+                <td>z</td>
+                <td>w</td>
+            </tr>
+            <tr>
+                <td>x</td>
+                <td>y</td>
+                <td>z</td>
+                <td>w</td>
+            </tr>
+            
+        </tbody>
+
+
+        <p>Paragraf 1</p>
+        <p class="kelasBlue" id="idRed">Paragraf 2</p>
+        <p class="kelasBlue">Paragraf 3</p>
+        <p class="kelasPurple">Paragraf 4</p>
+        <p class="kelasPurple" style="color: black;"> Paragraf 5</p>
+    </table>
+</body>
+</html>

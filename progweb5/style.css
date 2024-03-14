@@ -1,0 +1,53 @@
+html{
+    background-color: antiquewhite;
+}
+
+body{
+    width: 50%;
+    margin-left: 25%;
+    border: 10px solid pink;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+main h2{
+    color: coral;
+}
+
+header p{
+    text-indent: 2em;
+}
+
+header p+p{
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+}
+
+div h2 ~ p{
+    text-align: center;
+}
+
+div > p{
+    text-align: right;
+}
+
+table{
+    width: 100%;
+    border-style: solid;
+    border-color: white;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: gray;
+}
+
+tr:nth-child(odd){
+    background-color: lightgrey;
+}
+
